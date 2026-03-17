@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 * {
   margin: 0;
@@ -7,6 +7,7 @@
   font-family: "Poppins", serif;
 
 }
+
 .image-wrapper {
   display: inline-block;
   position: relative;
@@ -33,7 +34,7 @@ nav a:hover {
 }
  .active {
   background-color: #78909c;
-  color: #00aaff;
+  color: #78909c;
   border-radius: 20px;
   padding: 7px 10px;
 }
@@ -43,12 +44,77 @@ nav a:hover {
 }
 ::-webkit-scrollbar-track {
   background: #ffffff00;
-}
+}.header {
+    padding: 0 3rem;
+    position: relative;
+  }
+
+  .humburger {
+    display: block;
+    cursor: pointer;
+    font-size: 25px;
+    width: 45px;
+    height: 45px;
+    position: relative;
+  }
+
+  .humburger i {
+    position: absolute;
+    inset: 0;
+    /* left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0; */
+    margin: auto;
+    width: max-content;
+    height: max-content;
+    opacity: 0;
+    transition: 0.3s ease;
+  }
+
+  .humburger i.active {
+    opacity: 1;
+    transform: rotate(180deg);
+  }
+
+  .navbar {
+    position: absolute;
+    background-color: #333;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    padding: 0 3rem;
+    opacity: 0;
+    transition: 0.3s ease;
+  }
+
+  .navbar.active {
+    opacity: 1;
+  }
+
+  .navbar ul {
+    display: block;
+  }
+
+  .navbar ul li {
+    margin: 20px 0;
+    border-bottom: 1px solid #a4a4a4;
+    padding-bottom: 10px;
+  }
+
+  .navbar ul li:last-child {
+    border-bottom: none;
+  }
+
+  .navbar ul li a {
+    margin: 0;
+  }
+
 header  ul li {
   padding: 6px 15px;
 }
 header ul li a :hover{
-  background: #fff;
+  background: #ffffff;
   color: #ffffff;
 }
 
@@ -303,7 +369,7 @@ position: absolute;
  position: absolute;
   top: 888;
   left: 250px;
-  transform: translateX(-27%);
+  transform: translateX(-50%);
   max-width: 100%;
   height: auto;
  margin-top: 5px;
@@ -842,12 +908,7 @@ footer {
   padding: 2rem;
   text-align: center;
 }
-
-
-@media (max-width:1023px){
-
-
-  .uu {
+ .uu {
   position: absolute;
   top: 888;
   left: 100%;
@@ -869,4 +930,9 @@ footer {
   box-shadow: 0 0 15px #648ea3, 0 0 30px #6b9cb4;
 }
 
+
+@media script and (max-width: 900px) {
+  body {
+    background: #ff0000;
+  }
 }
