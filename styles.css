@@ -274,16 +274,13 @@
 }
 
 .RF {
-  max-width: 100%;
-  height: auto;
- margin: 0 auto;
-  min-height: vh;
-    height: auto;
-    width: 250px;
-   transform: translateX(170px);
-
-  
-    
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: -70rem auto;
+ max-width: 500px;
+  width: 230px;
+  transform: translateX(10rem);
 }
 .RF {
   border-radius: 15px;
@@ -299,16 +296,13 @@
   gap: 20px;
 }
 .GG {
- max-width: 100%;
-  height: auto;
- margin: 0 auto;
-  min-height: vh;
-    height: auto;
-    width: 250px;
-   transform: translateX(210px);
-   margin-top: 880px;
-
-  
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: -70rem auto;
+ max-width: 500px;
+  width: 230px;
+  transform: translateX(-25rem);
 }
 .GG {
   border-radius: 15px;
@@ -319,15 +313,13 @@
 }
 
 .TW {
-   max-width: 100%;
-  height: auto;
- margin: 0 auto;
-  min-height: vh;
-
-    height: auto;
-    width: 250px;
-   transform: translateX(190px);
-
+  display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 55.5rem auto;
+ max-width: px;
+  width: 230px;
+  transform: translateX(-8rem);
 
 }
 .TW {
@@ -338,13 +330,13 @@
   box-shadow: 0 0 15px #648ea3, 0 0 30px #6b9cb4;
 }
 .tu {
- max-width: 100%;
-  height: auto;
- margin: 0 auto;
-  min-height: vh;
-    height: auto;
-    width: 250px;
-   transform: translateX(150px);
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 60rem auto;
+ max-width: 100px;
+  width: 300px;
+  transform: translateX(25rem);
 
   
 }
