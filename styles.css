@@ -8,6 +8,41 @@
 
 }
 
+  .humburger {
+    display: block;
+  }
+
+header {
+  position: relative;
+}
+.menu-btn {
+  font-size: 28px;
+  cursor: pointer;
+  color: white;
+}
+.menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background: #111;
+  width: 200px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.menu a {
+  display: block;
+  color: #00adb5;
+  text-decoration: none;
+  padding: 10px;
+}
+.menu a :hover {
+  background: #648ea3;
+  border-radius: 5px;
+}
+.menu.active{
+  display: block;
+}
 .image-wrapper {
   display: inline-block;
   position: relative;
@@ -951,8 +986,3 @@ footer {
 }
 
 
-@media script and (max-width: 900px) {
-  body {
-    background: #ff0000;
-  }
-}
