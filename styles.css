@@ -45,6 +45,10 @@ nav a:hover {
 ::-webkit-scrollbar-track {
   background: #ffffff00;
 }.header {
+  display: flex;
+  gap: 15px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
     padding: 0 3rem;
     position: relative;
   }
@@ -149,8 +153,8 @@ header ul li a :hover{
  justify-content: space-between;
  align-items: center;
  margin: 12rem auto;
- max-width: 600px;
-  width: 1000rem;
+ max-width: 400px;
+  width: 500rem;
  
 }
 .uu {
@@ -166,7 +170,7 @@ header ul li a :hover{
  justify-content: space-between;
  align-items: center;
  margin: 12rem auto;
- max-width: 400px;
+ max-width: 300px;
   width: 150rem;
  
 }
@@ -392,7 +396,7 @@ position: absolute;
  display: flex;
  justify-content: space-between;
  align-items: center;
- margin: -70rem auto;
+ margin: -95rem auto;
  max-width: 500px;
   width: 190px;
   transform: translateX(6.5rem);
@@ -414,10 +418,10 @@ position: absolute;
  display: flex;
  justify-content: space-between;
  align-items: center;
- margin: -69.9rem auto;
+ margin: -81.5rem auto;
  max-width: 500px;
   width: 190px;
-  transform: translateX(-19.5rem);
+  transform: translateX(-6.5rem);
 }
 .GG {
   border-radius: 15px;
@@ -431,7 +435,7 @@ position: absolute;
   display: flex;
  justify-content: space-between;
  align-items: center;
- margin: 58.2rem auto;
+ margin: 83rem auto;
  max-width: px;
   width: 190px;
   transform: translateX(-6.5rem);
@@ -445,16 +449,13 @@ position: absolute;
   box-shadow: 0 0 15px #648ea3, 0 0 30px #6b9cb4;
 }
 .tu {
-  display: flex;
+   display: flex;
  justify-content: space-between;
  align-items: center;
- margin: 58rem auto;
- max-width: px;
+ margin: 70rem auto;
+ max-width: 500px;
   width: 190px;
-  transform: translateX(19.5rem);
-
-
-  
+  transform: translateX(6.5rem);
 }
 .tu {
   border-radius: 15px;
@@ -527,6 +528,10 @@ body {
     width: 500px;
 }
 .vv {
+  display: flex;
+  gap: 15px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
   color: #eeeeee81;
  position: absolute;
   top: 888;
@@ -542,7 +547,10 @@ body {
     font-size: 25px;
 }
 .y2 {
-  
+  display: flex;
+  gap: 15px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
   color: #eeeeeede;
  position: absolute;
   top: 888;
@@ -558,6 +566,10 @@ body {
     font-size: 25px;
 }
 .y1 {
+  display: flex;
+  gap: 15px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
  color: #78909c;
  position: absolute;
   top: 888;
@@ -567,12 +579,15 @@ body {
   height: auto;
  margin-top: 5px;
   min-height: vh;
- top: 90px;
+ top: 120px;
     height: auto;
-    
-    font-size: 80px;
+    font-size: 50px;
 }
 .ff {
+  display: flex;
+  gap: 15px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
  color: #eeeeee;
  position: absolute;
   top: 888;
@@ -588,6 +603,10 @@ body {
     font-size: 40px;
 }
 .ii {
+  display: flex;
+  gap: 15px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
   color: #78909c;
  position: absolute;
   top: 888;
